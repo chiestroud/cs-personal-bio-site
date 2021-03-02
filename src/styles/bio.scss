@@ -1,15 +1,53 @@
 .bio {
   color: black;
   font-size: 1.5em;
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 300px 500px;
+  grid-gap: 10px;
   justify-content: center;
 }
 
 .bioTitle {
+  place-self: center;
+  grid-column: 1 / -1;
   font-size: 1.8em;
 }
 
+.bioDetails {
+  grid-column: auto;
+  place-self: center;
+  padding-left: 10%;
+}
+
 .profilePic {
-  margin-top: auto;
-  width: 28em;
+  place-self: center;
+  width: 35em;
+}
+
+@media (max-width: 750px) {
+  .bio {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30px 340px;
+    grid-gap: 5px;
+    justify-content: center;
+  }
+  .bioTitle {
+    place-self: center;
+    grid-column: 1 / -1;
+    font-size: 1.3em;
+  }
+  .bioDetails {
+    grid-column: auto;
+    place-self: center;
+    padding: 2%;
+    font-size: 70%;
+  }
+  .profilePic {
+    place-self: center;
+    width: 15em;
+    padding: 2%;
+  }
+  
 }

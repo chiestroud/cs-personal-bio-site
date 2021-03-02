@@ -6,7 +6,6 @@ import domBuilder from './components/domBuilder/domBuilder';
 
 const init = () => {
   domBuilder();
-
   // USE WITH FIREBASE AUTH
   // checkLoginStatus();
 };
