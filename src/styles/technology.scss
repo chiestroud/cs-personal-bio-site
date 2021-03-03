@@ -1,0 +1,13 @@
+.technlogy {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.technology img {
+  width: 150px;
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+  margin: 15px;
+  max-width: 100%;
+}
