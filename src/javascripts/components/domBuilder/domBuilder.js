@@ -1,9 +1,13 @@
 import navBarCreater from './navBar';
-import bioBuilder from '../data/bio';
+import navigationEvents from '../events/navigationEvents';
+import appBuilder from '../data/app';
+import welcomeBuilder from '../data/welcome';
 
 const domBuilder = () => {
   navBarCreater();
-  bioBuilder();
+  appBuilder();
+  welcomeBuilder();
+  navigationEvents();
 };
 
 export default domBuilder;
