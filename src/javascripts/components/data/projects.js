@@ -37,7 +37,7 @@ const projects = [
   },
   {
     title: 'Tamagotchi',
-    screenshot: '/images/tamagotchi.png',
+    screenshot: '/../../../../images/tamagotchi.png',
     description: 'My fifth project Tamagotchi',
     technologiesUsed: 'HTML, CSS, Vanilla JavaScript',
     available: true,
