@@ -1,6 +1,6 @@
 const welcomeBuilder = () => {
-  document.querySelector('#welcome').innerHTML = `<div class="welcome">
-                                                    <div class="bioTitle">Hi! I am Chie Stroud.</div>
+  document.querySelector('#welcome').innerHTML = `<div class="container welcome">
+                                                    <div class="welcomeTitle">Hi! I am Chie Stroud.</div>
                                                   </div>`;
 };
 

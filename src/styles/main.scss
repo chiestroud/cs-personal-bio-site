@@ -2,6 +2,7 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import "./bio.scss";
 @import "./technology.scss";
+@import "./project.scss";
 
 body {
   background-color: #eafefe;
@@ -18,4 +19,34 @@ body {
   width: 100%;
   height: 50px;
   background-color: #00a087;
+}
+
+.welcome {
+  animation: left-to-right 3s ease-in forwards infinite alternate;
+}
+
+.welcomeContainer:hover .welcome {
+  animation-play-state: paused;
+}
+
+@keyframes left-to-right {
+  0% {
+    background-color: black;
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateY(100%);
+  }
+  66% {
+    transform: translateX(50%) translateY(100%);
+  }
+  100% {
+    background-color: blue;
+    transform: translateX(100%);
+  }
+}
+
+.welcomeTitle {
+  font-size: 8em;
+  color: white;
 }
