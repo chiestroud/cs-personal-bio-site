@@ -34,7 +34,7 @@ const projects = [
     description: 'My fourth project Bear Watcher',
     technologiesUsed: 'HTML, CSS, Vanilla JavaScript',
     available: true,
-    url: `"${bearwatcher}"`,
+    url: bearwatcher,
     githubUrl: 'https://github.com/chiestroud/ASSIGNMENT-Bear-Watcher',
   },
   {
