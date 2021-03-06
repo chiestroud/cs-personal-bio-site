@@ -1,4 +1,5 @@
 import bearwatcher from '../../images/bearwatcher.png';
+import petadoption from '../../images/petadoption.png';
 
 const projects = [
   {
@@ -12,7 +13,7 @@ const projects = [
   },
   {
     title: 'Pet Adoption',
-    screenshot: '/images/petadoption.png',
+    screenshot: petadoption,
     description: 'My second project in NSS. Dynamically created list of available pet cards using JavaScript',
     technologiesUsed: 'HTML, CSS, Vanilla JavaScript',
     available: true,
@@ -30,11 +31,11 @@ const projects = [
   },
   {
     title: 'Bear Watcher',
-    screenshot: '/images/bearwatcher.png',
+    screenshot: bearwatcher,
     description: 'My fourth project Bear Watcher',
     technologiesUsed: 'HTML, CSS, Vanilla JavaScript',
     available: true,
-    url: bearwatcher,
+    url: 'https://cs-bear-watcher.netlify.app/',
     githubUrl: 'https://github.com/chiestroud/ASSIGNMENT-Bear-Watcher',
   },
   {
