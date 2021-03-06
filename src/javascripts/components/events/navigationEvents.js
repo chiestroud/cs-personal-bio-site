@@ -1,5 +1,6 @@
 import bioBuilder from '../data/bio';
-import { projectBuilder, projects } from '../data/projects';
+import projectBuilder from '../data/projects';
+import projects from '../../helpers/projectsData';
 import technologyBuilder from '../data/technologies';
 
 const navigationEvents = () => {
