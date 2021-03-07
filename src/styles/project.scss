@@ -1,7 +1,26 @@
-// .card {
-//   width: 500px;
-// }
+.container {
+  display: flex;
+  justify-content: center;
+}
 
-// .card-img-top {
-//   height: 40%;
-// }
+div#card {
+  margin-top: 15px;
+}
+
+#card {
+  height: 800px;
+  color: #fff;
+}
+ 
+.card-img-top {
+  height: 60%;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1.3rem;
+}
