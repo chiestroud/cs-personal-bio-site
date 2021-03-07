@@ -3,26 +3,52 @@
 @import "./bio.scss";
 @import "./technology.scss";
 @import "./project.scss";
+@import "./contacts.scss";
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 
 body {
-  background-color: #eafefe;
+  background-color: #121212;
   color: brown;
   text-align: center;
   margin-top: 100px;
+  font-family: 'RocknRoll One', sans-serif;
 }
 
 .navbar {
+  background-color: #121212;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 9999;
   width: 100%;
-  height: 50px;
-  background-color: #00a087;
+  height: 80px;
+  font-size: 1.5rem;
 }
 
+
+.navbar-brand {
+  color: #faffc7;
+  font-size: 1.8rem;
+  margin-right: 2rem;
+  background-color: #121212;
+}
+
+.navbar-brand:hover{
+  color: #faffc7;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #ea1c2c;
+}
+
+
+
 .welcome {
-  animation: left-to-right 3s ease-in forwards infinite alternate;
+  animation: left-to-right 10s ease-in forwards infinite alternate;
 }
 
 .welcomeContainer:hover .welcome {
@@ -31,22 +57,23 @@ body {
 
 @keyframes left-to-right {
   0% {
-    background-color: black;
-    transform: translateX(0);
+    color: #baffc9;
+    transform: translateX(-50%);
   }
   33% {
-    transform: translateY(100%);
+    color: #ffffba;
+    transform: translateX(50%) translateY(50%);
   }
   66% {
-    transform: translateX(50%) translateY(100%);
+    color: #ffb3ba;
+    transform: translateX(-50%) translateY(50%);
   }
   100% {
-    background-color: blue;
-    transform: translateX(100%);
+    color: #bae1ff;
+    transform: translateX(50%);
   }
 }
 
 .welcomeTitle {
   font-size: 8em;
-  color: white;
 }
